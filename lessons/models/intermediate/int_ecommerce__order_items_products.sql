@@ -4,7 +4,7 @@ WITH products as (
 		department AS product_department,
 		cost AS product_cost,
 		retail_price AS product_retail_price
-	FROM {{ ref('stg_ecommerce_products')}}
+	FROM {{ ref('stg_ecommerce__products')}}
 )
 
 SELECT
