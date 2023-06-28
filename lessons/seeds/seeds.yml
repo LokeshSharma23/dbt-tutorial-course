@@ -1,7 +1,7 @@
 version: 2
 
 seeds:
-  - name: seeds_distribution_centers_new
+  - name: seed_distribution_centers_new
     description: "Distribution centers not yet loaded into data warehouse"
     tests:
       - dbt_expectations.expect_table_row_count_to_equal:
