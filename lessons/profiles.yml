@@ -1,4 +1,5 @@
 lessons:
+  target: dev
   outputs:
     dev:
       dataset: dbt_lokesh
@@ -10,4 +11,6 @@ lessons:
       project: dbt-ecommerce-15669
       threads: 60
       type: bigquery
-  target: dev
+
+
+
